@@ -25,7 +25,7 @@ const tabs = [
 const AnimatedTabs = () => {
   const [activeTab, setActiveTab] = useState(tabs[0].id);
   return (
-    <div className="bg-slate-900">
+    <div>
       <div className="mt-10 flex items-center justify-center gap-10">
         {tabs.map((tab) => (
           <button
